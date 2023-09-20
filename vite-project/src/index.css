@@ -1,69 +1,75 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.cardDiv {
+  margin: 10px 20px 10px 20px;
+  width: 500px;
+  max-width: 90%;
+  border-radius: 0% 0% 5% 5%;
+  background-color: white;
+  padding-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+  height: 750px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.cardDiv h2 {
+  font-size: 2rem;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.cardDiv h3 {
+  font-size: 1.6rem;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.cardDiv button {
+  border-style: none;
+  border-radius: 5%;
+  height: 50px;
+  color: white;
+  background-color: #B0D9B1;
+  font-size: 0.8rem;
+  transition: 0.3s;
+  width: 50%;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.cardDiv button:hover {
+  opacity: 0.7;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.cardDivImg {
+  width: 100%;
+  height: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardDiv {
+    width: 350px;
+    height: 500px;
   }
-  a:hover {
-    color: #747bff;
+  .cardDiv h2 {
+    font-size: 0.9rem;
   }
-  button {
-    background-color: #f9f9f9;
+  .cardDiv h3 {
+    font-size: 0.8rem;
+  }
+  .cardDiv button {
+    font-size: 0.7rem;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+    .cardDiv {
+        width: 275px;
+        height: 375px;
+      }
+  .cardDiv h2 {
+    font-size: 0.6rem;
+  }
+
+  .cardDiv h3 {
+    font-size: 0.5rem;
+  }
+
+  .cardDiv button {
+    font-size: 0.5rem;
+    height: 30px;
   }
 }
