@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Top 10 Basketball Players in the NBA - An Educational Experience*
+# Web Development Project 1 - Top 10 Basketball Players in the NBA - An Educational Experience
 
 Submitted by: **Tashi Sherpa**
 
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/TSherpa10/web102_prework/blob/main/codepath_project1.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
