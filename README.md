@@ -28,7 +28,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/ysieV9u.gif' title='Video Walkthrough' width='1000px' alt='Video Walkthrough' />
+![](https://github.com/TSherpa10/project1-web102/codepath_project1.gif)
+<!-- <img src='https://i.imgur.com/ysieV9u.gif' title='Video Walkthrough' width='1000px' alt='Video Walkthrough' /> -->
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap  
